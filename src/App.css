@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#addButton{
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.addTask {
+  height: 25vh;
+  background-color: #3ccacc;
+  background-image: linear-gradient(0deg,#2d244c 0%, #3cc5aa 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid silver;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg,#5630de 0%, #8feedb 100%);
+}
+
+.task button {
+  width: auto;
+  margin-left: 5px;
+  text-align: right;
+}
+
+#cmplt{
+  border: none;
+  background-color: rgb(162, 247, 162);
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#dlt{
+  border: none;
+  background-color: rgb(234, 59, 59);
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
